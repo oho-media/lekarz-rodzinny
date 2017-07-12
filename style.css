@@ -17,10 +17,21 @@ main {
     border: 2px #17406b solid;*/
     background-color: #dddddd;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
     align-content: center;
     overflow: hidden;
+}
+#info {
+    width: 320px;
+    height: 500px;
+    background-color: lightblue;
+    box-sizing: border-box;
+}
+#fb {
+    width: 320px;
+    height: 500px;
+    box-sizing: border-box;
 }
 h1 {
     color: orangered;
