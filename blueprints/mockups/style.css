@@ -111,3 +111,39 @@ footer > a > span {
 footer > a:hover > span {
     color: orangered;
 }
+
+@media (max-width: 670px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+    section {
+        width: 100%;
+    }
+    .lr, .fb {
+        justify-content: center;
+        padding: 0;
+    }
+    .lr-box {
+        height: 295px;
+    }
+    .logo {
+        height: 120px;
+        background-size: 80px 80px;
+        background-position: 40px 25px;
+    }
+    .address {
+        height: 116px;
+        padding-top: 33px;
+    }
+    .address > p {
+        margin-left: 25px;
+        font-size: 0.9em;
+    }
+    .phone {
+        font-size: 1.2em;
+    }
+    .phone > p {
+        margin: 20px 0 0 136px;
+    }
+}
